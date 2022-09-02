@@ -1,0 +1,20 @@
+$letraColor:pfooter;
+
+footer{
+    background-color: #212529;
+    padding:1.2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    text-align: center;
+    margin: 0;
+    p{
+        @if ($letraColor == pfooter){
+            color: #fff;
+        }
+    }
+    .redes{
+        display: flex;
+    }
+}
